@@ -1,12 +1,21 @@
 @layer component {
   .btn {
+    display: inline-block;
     text-align: center;
     padding: 0.5em 1em;
     border-radius: 5px;
     letter-spacing: 0.6px;
     text-decoration: none;
     cursor: pointer;
-    display: inline-block;
+    transition: translate 300ms, opacity 300ms;
+  }
+
+  .btn:hover {
+    opacity: 0.8;
+  }
+
+  .btn:active {
+    translate: 1px 1px;
   }
 
   .btn--raised {
@@ -20,6 +29,7 @@
 
   .btn--block {
     display: block;
+    margin-inline: auto;
     max-width: 800px;
     width: 100%;
     text-align: center;
