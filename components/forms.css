@@ -1,0 +1,12 @@
+@layer component {
+  .input {
+    display: block;
+    width: 100%;
+    border: 2px solid var(--light-border-color);
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .input--search {
+  }
+}
