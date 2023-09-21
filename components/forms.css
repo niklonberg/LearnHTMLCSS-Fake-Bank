@@ -7,6 +7,26 @@
     padding: 10px;
   }
 
-  .input--search {
+  .input-search {
+    background-image: url(../assets/icons/magnifier.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 14px;
+    color: var(--light-text-color);
+    font-size: 0.875rem;
+  }
+
+  .form-buttons {
+    display: grid;
+    gap: 15px;
+  }
+
+  .form-line {
+    margin-bottom: 24px;
   }
 }
