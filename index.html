@@ -4,42 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fake Bank</title>
-    <link rel="stylesheet" href="index.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: system-ui;
+        margin: 0;
+      }
+
+      input,
+      textarea,
+      button,
+      select {
+        font: inherit;
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
-      <p class="text--dimmed">Today</p>
-      <div class="entry">
+    <main>
+      <a href="onboarding.html">
         <img
-          src="assets/icons/dropbox.png"
-          width="40"
-          height="40"
-          class="avatar"
-          alt=""
+          src="assets/img/logo.png"
+          width="250"
+          height="250"
+          alt="MyBank logo"
         />
-        <div class="entry--details">
-          <p class="entry-name">Dropbox</p>
-          <p class="entry-description">Premium plan fee</p>
-        </div>
-        <p class="entry-value">-$20.00</p>
-      </div>
-
-      <h2>transfer money</h2>
-      <ul class="items">
-        <li>
-          <a href="" class="item">
-            <img
-              src="assets/icons/users.svg"
-              width="24px"
-              height="24"
-              class="avatar"
-              alt=""
-            />
-            <p class="item--name">To a contact</p>
-          </a>
-        </li>
-      </ul>
-    </div>
+      </a>
+      <h1>World's Largest and Most Trusted Bank</h1>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
