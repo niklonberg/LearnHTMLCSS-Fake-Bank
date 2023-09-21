@@ -25,13 +25,13 @@
 
   .btn--link {
     color: var(--primary-color);
+    background-color: yellow;
   }
 
   .btn--block {
     display: block;
     margin-inline: auto;
-    max-width: 800px;
     width: 100%;
-    text-align: center;
+    max-width: 800px;
   }
 }
