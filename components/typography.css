@@ -14,20 +14,3 @@
     color: var(--light-text-color);
   }
 }
-
-@layer component {
-  .title--lg {
-    font-size: 1.875rem;
-  }
-
-  .title {
-    font-size: 1.125rem;
-    font-weight: 600;
-    letter-spacing: 0.3px;
-  }
-
-  .text--dimmed {
-    font-size: 0.875rem;
-    color: var(--light-text-color);
-  }
-}
