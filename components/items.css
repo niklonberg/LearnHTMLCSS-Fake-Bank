@@ -1,0 +1,28 @@
+@layer component {
+  .items {
+    list-style-type: none;
+    padding-inline: 0px;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-inline: 10px;
+    padding-block: 15px;
+    background-image: url(../assets/icons/chevron-right.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
+    text-decoration: none;
+  }
+
+  .items li:not(:last-child) .item {
+    border-bottom: 1px solid var(--light-border-color);
+  }
+
+  .item--name {
+    flex: 1;
+    color: var(--dark-color);
+  }
+}
