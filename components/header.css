@@ -1,5 +1,14 @@
 @layer component {
-  .back {
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  #header .back {
+    position: absolute;
+    left: 0;
     display: inline-block;
     background-image: url("/assets/icons/back.svg");
     background-repeat: no-repeat;
