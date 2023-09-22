@@ -1,0 +1,7 @@
+@layer component {
+  #back-btn {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+  }
+}
