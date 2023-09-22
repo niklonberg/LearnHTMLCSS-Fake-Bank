@@ -3,5 +3,7 @@
     background-image: url("/assets/icons/lock.svg");
     background-repeat: no-repeat;
     background-position: center left;
+    text-align: left;
+    padding-left: 40px;
   }
 }
