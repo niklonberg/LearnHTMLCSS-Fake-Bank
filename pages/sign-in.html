@@ -15,6 +15,41 @@
         <h1>Sign in</h1>
       </div>
     </header>
-    <main></main>
+    <main class="container">
+      <form action="#">
+        <div class="form-line">
+          <label for="phone-number">Phone number</label>
+          <input
+            id="phone-number"
+            class="input"
+            type="text"
+            inputmode="tel"
+            autocomplete="tel"
+            placeholder="+45 21 21 21 21"
+            required
+          />
+        </div>
+        <div class="form-line">
+          <label for="password">Password</label>
+          <input
+            id="password"
+            class="input"
+            type="text"
+            autocomplete="current-password"
+            required
+          />
+        </div>
+        <div class="form-buttons">
+          <a href="#" class="ax-button btn btn--block btn--link"
+            >Recover password</a
+          >
+          <input
+            type="submit"
+            value="Sign in"
+            class="ax-button btn btn--block btn--raised"
+          />
+        </div>
+      </form>
+    </main>
   </body>
 </html>
