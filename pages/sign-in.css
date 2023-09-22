@@ -1,9 +1,2 @@
 @layer component {
-  #back-btn {
-    display: inline-block;
-    background-image: url("/assets/icons/back.svg");
-    background-repeat: no-repeat;
-    width: 30px;
-    height: 24px;
-  }
 }
