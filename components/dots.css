@@ -14,6 +14,10 @@
     transition: background-color 800ms, scale 400ms;
   }
 
+  .dot:hover {
+    opacity: 0.8;
+  }
+
   .active {
     background-color: var(--primary-color);
     scale: 1.5;
