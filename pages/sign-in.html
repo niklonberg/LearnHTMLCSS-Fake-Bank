@@ -21,15 +21,18 @@
       <form action="#" aria-labelledby="title-sign-in">
         <div class="form-line">
           <label for="phone-number">Phone number</label>
-          <input
-            id="phone-number"
-            class="input"
-            type="text"
-            inputmode="tel"
-            autocomplete="tel"
-            placeholder="+45 21 21 21 21"
-            required
-          />
+          <div id="phone-section">
+            <div id="us-flag" class="fixed-left"></div>
+            <input
+              id="phone-number"
+              class="input"
+              type="text"
+              inputmode="tel"
+              autocomplete="tel"
+              placeholder="+45 21 21 21 21"
+              required
+            />
+          </div>
         </div>
         <div class="form-line">
           <label for="password">Password</label>

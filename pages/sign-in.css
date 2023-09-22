@@ -1,9 +1,23 @@
-@layer component {
+@layer page {
   #recover-password {
     background-image: url("/assets/icons/lock.svg");
     background-repeat: no-repeat;
     background-position: center left;
     text-align: left;
     padding-left: 40px;
+  }
+
+  #phone-section {
+    display: flex;
+  }
+
+  .fixed-left {
+    padding: 20px;
+  }
+
+  #us-flag {
+    background-image: url("/assets/icons/flag-us.svg");
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
