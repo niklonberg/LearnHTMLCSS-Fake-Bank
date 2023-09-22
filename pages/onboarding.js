@@ -1,3 +1,4 @@
+const slider = document.querySelector("#slider");
 const dotsContainer = document.querySelector("#dots");
 const dots = document.querySelectorAll(".dot");
 
@@ -8,4 +9,8 @@ dotsContainer.addEventListener("click", (event) => {
     });
     event.target.classList.toggle("active");
   }
+});
+
+slider.addEventListener("scroll", (event) => {
+  console.log(event);
 });
