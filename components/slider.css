@@ -1,13 +1,15 @@
-#slider {
-  display: grid;
-  grid-template-columns: repeat(3, 100%);
-  place-items: center;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
+@layer component {
+  #slider {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    place-items: center;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
 
-.slide {
-  scroll-snap-align: center;
-  display: grid;
-  place-items: center;
+  .slide {
+    scroll-snap-align: center;
+    display: grid;
+    place-items: center;
+  }
 }
