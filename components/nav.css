@@ -1,0 +1,12 @@
+@layer component {
+  #nav-spacer {
+    height: 70px;
+    background-color: red;
+  }
+
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
