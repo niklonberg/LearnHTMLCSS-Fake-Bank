@@ -1,7 +1,7 @@
 @layer component {
   #nav-spacer {
     height: 70px;
-    background-color: red;
+    background-color: rgb(240, 169, 169);
   }
 
   .bottom-nav {
@@ -12,12 +12,21 @@
     padding-inline: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    box-shadow: 0 -3px 10px rgba(0 0 0 / 0.3);
   }
 
   .nav-item {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    outline: 1px solid rgba(0 0 0 / 0.3);
+    padding-block: 10px;
+    transition: opacity 300ms;
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+
+  .nav-item:hover {
+    opacity: 0.8;
   }
 }
