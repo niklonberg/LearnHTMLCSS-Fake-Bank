@@ -10,11 +10,16 @@
     gap: 16px;
     padding-inline: 10px;
     padding-block: 15px;
-    background-image: url(../assets/icons/chevron-right.svg);
+    background-image: url(/assets/icons/chevron-right.svg);
     background-repeat: no-repeat;
     background-position: right;
     background-origin: content-box;
     text-decoration: none;
+    transition: opacity 300ms;
+  }
+
+  .item:hover {
+    opacity: 0.8;
   }
 
   .items li:not(:last-child) .item {
