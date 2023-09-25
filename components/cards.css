@@ -13,10 +13,25 @@
     scroll-snap-align: center;
     scroll-snap-stop: always;
     background-color: blue;
+    background-image: url(/assets/icons/mastercard.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left 20px top 20px;
     border-radius: 10px;
     padding: 20px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 
   .card-details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-type,
+  .card-last4 {
+    margin-bottom: 0;
   }
 }
