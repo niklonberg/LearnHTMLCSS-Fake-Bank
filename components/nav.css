@@ -1,7 +1,6 @@
 @layer component {
   #nav-spacer {
     height: 70px;
-    background-color: rgb(240, 169, 169);
   }
 
   .bottom-nav {
