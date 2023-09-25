@@ -1,5 +1,7 @@
 @layer component {
   #app-header {
+    position: relative; /* for position profile-settings btn
+    and ensuring it does not overlap main section of app */
     background-color: var(--primary-color);
     color: white;
     padding-block: 20px 40px;
@@ -9,5 +11,6 @@
     font-size: 1.125rem;
     font-weight: normal;
     text-align: center;
+    margin-top: 0;
   }
 }

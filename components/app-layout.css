@@ -6,5 +6,12 @@
     margin-top: -20px;
     padding-top: 10px;
     box-shadow: 0px -5px 10px rgba(0 0 0 / 0.4);
+    position: relative; /* to ensure it stays on top of header */
+  }
+
+  .layout-subpage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }

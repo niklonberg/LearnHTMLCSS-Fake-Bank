@@ -30,4 +30,18 @@
     flex: 1;
     color: var(--dark-color);
   }
+
+  .item-name-contact,
+  .item-name-phone {
+    color: var(--light-text-color);
+    margin: 0;
+  }
+
+  .item-name-contact {
+    margin-bottom: 8px;
+  }
+
+  .item-name-phone {
+    font-size: 0.875rem;
+  }
 }
