@@ -15,5 +15,6 @@
 @import url(components/app-header.css);
 @import url(components/app-layout.css);
 @import url(components/nav.css);
+@import url(components/pills.css);
 @import url(pages/onboarding.css);
 @import url(pages/sign-in.css);
