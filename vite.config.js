@@ -6,13 +6,13 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: "index.html",
-        onboarding: "pages/onboarding.html",
-        dashboard: "pages/dashboard.html",
-        profile: "pages/profile.html",
-        services: "pages/services.html",
-        signin: "pages/signin.html",
-        transactions: "pages/transactions.html",
+        main: resolve(__dirname, "index.html"),
+        onboarding: resolve(__dirname, "pages/onboarding.html"),
+        dashboard: resolve(__dirname, "pages/dashboard.html"),
+        profile: resolve(__dirname, "pages/profile.html"),
+        services: resolve(__dirname, "pages/services.html"),
+        signin: resolve(__dirname, "pages/sign-in.html"),
+        transactions: resolve(__dirname, "pages/transactions.html"),
       },
     },
   },
