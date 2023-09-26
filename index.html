@@ -25,6 +25,7 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+        transition: opacity 400ms;
       }
 
       h1 {
@@ -47,6 +48,26 @@
         white-space: nowrap;
         border: 0;
       }
+
+      #signed-in-link {
+        top: 30px;
+        left: 60px;
+        color: white;
+        text-decoration: none;
+        background-color: #006167;
+        padding: 0.5em 1em;
+        border-radius: 2em;
+        box-shadow: 1px 1px 3px rgba(0 0 0 / 0.3);
+        transition: translate 300ms;
+      }
+
+      #signed-in-link:active {
+        translate: 1px 1px;
+      }
+
+      a:hover {
+        opacity: 0.8;
+      }
     </style>
   </head>
   <body>
@@ -61,6 +82,7 @@
         />
       </a>
       <h1>World's Largest and Most Trusted Bank</h1>
+      <a href="pages/dashboard.html" id="signed-in-link">Go to app</a>
     </main>
   </body>
 </html>
