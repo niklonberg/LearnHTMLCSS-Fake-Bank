@@ -2,8 +2,8 @@ import { resolve } from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: "/LearnHTMLCSS-Fake-Bank/",
   build: {
-    base: "/LearnHTMLCSS-Fake-Bank",
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
